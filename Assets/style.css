@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url(./intrepid.ttf);
+}
+
+body{
+    position: relative;
+    font-family: 'CustomFont', sans-serif;
+    letter-spacing: 1.5px;
+    color: #535353 ;
+    background-color: #ebedec;
+}
+
+h1,h2{
+    margin: 5px;
+}
+
+main{
+    padding: 10px;
+    padding-top: 90px;
+}
+
+a{color: #fbd616;}
+
+li{
+    display: inline;
+    padding: 0px 10px;
+    color: #fbd616;
+}
+
+header,footer{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+
+header{
+    line-height: 20px;
+    position: fixed;
+    border-top: 10px solid #ebedec;
+}
+
+footer{  
+    color: #fbd616;
+    line-height: 60px;
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #ebedec;
+}
+
+figure{
+    margin-bottom: 40px;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+    width: 800px;
+    height: auto;
+}
+
+section{
+    margin-bottom: 70px;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    border-radius: 10px;
+    background-color: #bebebe;
+}
+
+form{
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+label{
+    display: inline-block;
+    width: 480px;
+}
+
+input,textarea{
+    box-sizing: border-box;
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #fbd616;
+}
+
+textarea{
+    vertical-align: top;
+    height: 60px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color:#bebebe;
+    color: #000000;
+  }
+
+  .centre{
+    text-align: center;
+  }
+
+  .right{
+    text-align: right;
+  }
